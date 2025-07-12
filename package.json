@@ -1,0 +1,22 @@
+{
+  "name": "todojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start",
+  "scripts": {
+    "test": "dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwcall1102/ToDoJs.git"
+  },
+  "author": "Hayden Call",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwcall1102/ToDoJs/issues"
+  },
+  "homepage": "https://github.com/hwcall1102/ToDoJs#readme",
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}

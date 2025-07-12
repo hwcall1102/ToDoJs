@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List</title>
+  <style>
+    body { font-family: sans-serif; padding: 1rem; margin:0 auto; max-width: 600px;}
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 0.5rem; }
+    .completed { text-decoration: line-through; color: gray; }
+  </style>
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <input type="text" id="taskInput" placeholder="Enter task..." />
+  <button id="addTaskBtn">Add Task</button>
+  <ul id="taskList"></ul>
+
+  <script type="module" src="main.js" async></script>
+</body>
+</html>
